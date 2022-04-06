@@ -1,0 +1,167 @@
+.component {
+  height: 100vh;
+}
+
+.green-page {
+  background-color: #F6F6F6;
+}
+
+.red-page {
+  background-color: red;
+}
+
+.blue-page {
+  background-color: #F6F6F6;
+}
+
+.another-page {
+  background-color: red;
+}
+
+* {
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav button {
+  width: 100px;
+  height: 30px;
+  margin: 15px;
+  background-color: rgb(215, 250, 255);
+  border-radius: 5px;
+}
+
+
+.header-container{
+  background-color: black;
+  padding: 1.5rem;
+}
+
+.logo {
+  height: 3.5rem;
+  
+}
+
+.locationContainer{
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  text-align: center;
+  
+}
+
+.btn-lokalitet{
+  background-color: #00C167; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  width: 400px;
+  border-radius: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+
+  
+}
+
+
+.btnConfirmLPN{
+  background-color: #00C167; /* Green */
+  border: none;
+  color: white;
+  margin: 10px;
+  padding: 15px 40px;
+  width: 300px;
+  border-radius: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.confirmContainer{
+  text-align: center;
+  background-color: white;
+  width: 600px;
+  height: 250px;
+
+  position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+}
+
+.titleConfirm {
+padding-top: 70px;
+}
+
+
+.productCards {
+  width: 600px;
+margin-left: 350px;
+margin-top: 10px;
+  border-radius: 0px;
+  border: 0.2px;
+}
+
+.program-name {
+  color: #00C167;
+}
+
+.program-price {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+
+.program-text {
+  font-weight: 300;
+}
+
+.btnProgram {
+  background-color: #00C167;
+  border: none;
+  color: white;
+  padding: 12px 36px;
+  width: 200px;
+  border-radius: 0;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 180px;
+}
+
+
+.statusText{
+  font-size: 60px;
+  width: 800px;
+  text-align: center;
+  height: 200px;
+
+  position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+  color: black;
+}
+
+.nav-container{
+  background-color: black;
+  padding: 1.5rem;
+}
+
+.logo {
+  height: 3.5rem;
+  
+}
